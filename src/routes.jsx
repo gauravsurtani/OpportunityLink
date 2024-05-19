@@ -18,7 +18,8 @@ export const routes = [
     layout: "dashboard",
     pages: [
       {
-        path: "/",
+        name: "Company Look-up",
+        path: "/search",
         element: <Search />,
       },
       {
