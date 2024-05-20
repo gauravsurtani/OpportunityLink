@@ -22,13 +22,13 @@ const TimeSeriesChart = ({ data, companyName }) => {
   };
 
   const layout = {
-    title: `${companyName} Company Size Data`,
+    title: `${companyName} Company Size`,
     xaxis: {
       title: 'Date',
       type: 'date' // Specify that x-axis should treat data as date
     },
     yaxis: {
-      title: 'Head Count'
+      title: 'Count'
     },
     showlegend: false
   };

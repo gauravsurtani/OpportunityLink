@@ -41,13 +41,13 @@ export function Footer({ brandName, brandLink, routes }) {
 }
 
 Footer.defaultProps = {
-  brandName: "Creative Tim",
-  brandLink: "https://www.creative-tim.com",
+  brandName: "Gaurav Surtani",
+  brandLink: "https://gauravsurtani.github.io/",
   routes: [
-    { name: "Creative Tim", path: "https://www.creative-tim.com" },
-    { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-    { name: "Blog", path: "https://www.creative-tim.com/blog" },
-    { name: "License", path: "https://www.creative-tim.com/license" },
+    { name: "Gaurav Surtani", path: "https://gauravsurtani.github.io/" },
+    { name: "About Us", path: "https://gauravsurtani.github.io/" },
+    { name: "Blog", path: "https://gauravsurtani.github.io/" },
+    { name: "License", path: "https://gauravsurtani.github.io/" },
   ],
 };
 
